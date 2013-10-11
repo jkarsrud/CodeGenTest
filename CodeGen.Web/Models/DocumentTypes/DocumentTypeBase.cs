@@ -2,7 +2,7 @@
 
 namespace CodeGen.Web.Models.DocumentTypes
 {
-    public partial class DocumentTypeBase
+    public class DocumentTypeBase
     {
         public IPublishedContent Content { get; set; }
 

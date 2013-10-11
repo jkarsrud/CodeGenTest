@@ -5,7 +5,7 @@ using Umbraco.Core.Models;
 namespace CodeGen.Web.Models.DocumentTypes
 {
     [DisplayName("Language Master")]
-    [Description("Språkmaster yo")]
+    [Description("Språkmaster")]
     public partial class LanguageMaster : DocumentTypeBase
     {
         public LanguageMaster(IPublishedContent content) : base(content)
